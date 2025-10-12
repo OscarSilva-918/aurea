@@ -20,7 +20,11 @@ import img18 from '../img/cocina/img18.jpg';
 import img19 from '../img/cocina/img19.jpg';
 import img20 from '../img/cocina/img20.jpg';
 import img21 from '../img/cocina/img21.jpg';
+import img22 from '../img/cocina/img22.jpg';
+import img23 from '../img/cocina/img23.jpg';
+import img24 from '../img/cocina/img24.jpg';
 
+import placar1 from '../img/placares/placar1.jpg'
 
 
 export const products: Product[] = [
@@ -29,7 +33,7 @@ export const products: Product[] = [
     name: 'Cocina Moderna en L',
     category: 'Cocinas',
     description: 'Cocina completa con melamina color helsinky, perfil "C" y herrajes cierre suave.',
-    imageUrls: [img1],
+    imageUrls: [img2],
     dimensions: '3.00m x 2.40m x 0.60m',
     price: 'Consultar'
   },
@@ -38,7 +42,16 @@ export const products: Product[] = [
     name: 'Cocina Moderna Blanca',
     category: 'Cocinas',
     description: 'Cocina completa con melamina blanca brillante, tiradores invisibles y encimera de cuarzo.',
-    imageUrls: [img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21],
+    imageUrls: [img4, img5],
+    dimensions: '3.00m x 2.40m x 0.60m',
+    price: 'Consultar'
+  },
+  {
+    id: '101',
+    name: 'Cocina Moderna Blanca',
+    category: 'Cocinas',
+    description: 'Cocina completa con melamina blanca brillante, tiradores invisibles y encimera de cuarzo.',
+    imageUrls: [img6, img7],
     dimensions: '3.00m x 2.40m x 0.60m',
     price: 'Consultar'
   },
@@ -47,7 +60,7 @@ export const products: Product[] = [
     name: 'Placard Vestidor Premium',
     category: 'Placares',
     description: 'Vestidor modular con puertas corredizas, estantes ajustables y barras cromadas.',
-    imageUrls: ['https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?auto=compress&cs=tinysrgb&w=1200'],
+    imageUrls: [placar1],
     dimensions: '2.50m x 2.60m x 0.60m',
     price: 'Consultar'
   },
