@@ -25,7 +25,23 @@ import img23 from '../img/cocina/img23.jpg';
 import img24 from '../img/cocina/img24.jpg';
 
 import placar1 from '../img/placares/placar1.jpg'
+import placar2 from '../img/placares/placar2.jpg'
+import placar3 from '../img/placares/placar3.jpg'
+import placar4 from '../img/placares/placar4.jpg'
 
+import ofice1 from '../img/oficina/ofice1.jpg'
+import ofice2 from '../img/oficina/ofice2.jpg'
+import ofice3 from '../img/oficina/ofice3.jpg'
+import ofice4 from '../img/oficina/ofice4.jpg'
+import ofice5 from '../img/oficina/ofice5.jpg'
+
+
+import rack1 from '../img/rack/rack1.jpg'
+import rack2 from '../img/rack/rack2.jpg'
+import rack3 from '../img/rack/rack3.jpg'
+
+
+import imagen1 from '../img/tocador/imagen1.jpg'
 
 export const products: Product[] = [
   {
@@ -65,11 +81,38 @@ export const products: Product[] = [
     price: 'Consultar'
   },
   {
+    id: '2',
+    name: 'Placard Vestidor Premium',
+    category: 'Placares',
+    description: 'Vestidor modular con puertas corredizas, estantes ajustables y barras cromadas.',
+    imageUrls: [placar2, placar3],
+    dimensions: '2.50m x 2.60m x 0.60m',
+    price: 'Consultar'
+  },
+  {
+    id: '2',
+    name: 'Placard Vestidor Premium',
+    category: 'Placares',
+    description: 'Vestidor modular con puertas corredizas, estantes ajustables y barras cromadas.',
+    imageUrls: [placar4],
+    dimensions: '2.50m x 2.60m x 0.60m',
+    price: 'Consultar'
+  },
+  {
     id: '3',
     name: 'Escritorio Home Office',
     category: 'Escritorios',
     description: 'Escritorio minimalista con cajones laterales, ideal para trabajo remoto.',
-    imageUrls: ['https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&w=1200'],
+    imageUrls: [ofice1, ofice5],
+    dimensions: '1.60m x 0.75m x 0.60m',
+    price: 'Consultar'
+  },
+  {
+    id: '3',
+    name: 'Escritorio Home Office',
+    category: 'Escritorios',
+    description: 'Escritorio minimalista con cajones laterales, ideal para trabajo remoto.',
+    imageUrls: [ofice2],
     dimensions: '1.60m x 0.75m x 0.60m',
     price: 'Consultar'
   },
@@ -78,7 +121,25 @@ export const products: Product[] = [
     name: 'Mueble TV Flotante',
     category: 'Muebles TV',
     description: 'Mueble suspendido con compartimentos cerrados y estantes de vidrio templado.',
-    imageUrls: ['https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=1200'],
+    imageUrls: [rack1],
+    dimensions: '2.00m x 1.80m x 0.40m',
+    price: 'Consultar'
+  },
+  {
+    id: '4',
+    name: 'Mueble TV Flotante',
+    category: 'Muebles TV',
+    description: 'Mueble suspendido con compartimentos cerrados y estantes de vidrio templado.',
+    imageUrls: [rack2],
+    dimensions: '2.00m x 1.80m x 0.40m',
+    price: 'Consultar'
+  },
+  {
+    id: '4',
+    name: 'Mueble TV Flotante',
+    category: 'Muebles TV',
+    description: 'Mueble suspendido con compartimentos cerrados y estantes de vidrio templado.',
+    imageUrls: [rack3],
     dimensions: '2.00m x 1.80m x 0.40m',
     price: 'Consultar'
   },
@@ -96,7 +157,7 @@ export const products: Product[] = [
     name: 'Mueble Vanitory',
     category: 'Baños',
     description: 'Mueble para baño con mesada, espejo y almacenamiento integrado.',
-    imageUrls: [' https://images.pexels.com/photos/1454804/pexels-photo-1454804.jpeg?auto=compress&cs=tinysrgb&w=1200'],
+    imageUrls: [imagen1],
     dimensions: '1.20m x 0.85m x 0.50m',
     price: 'Consultar'
   }
