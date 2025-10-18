@@ -20,7 +20,7 @@ function App() {
       <Design3D />
       <BeforeAfter />
       <Testimonials />
-      <BudgetCalculator />
+      {/* <BudgetCalculator /> */}
       <Contact />
       <Footer />
       <WhatsAppButton />

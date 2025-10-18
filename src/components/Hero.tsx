@@ -9,7 +9,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="inicio" className="relative h-screen flex items-center justify-center overflow-hidden">
+  <section id="inicio" className="relative flex items-center justify-center overflow-hidden py-12 md:py-20" style={{ minHeight: 'calc(100vh - 72px)' }}>
       <div
         className="absolute inset-0 z-0"
         style={{
@@ -18,18 +18,16 @@ export default function Hero() {
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/50"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/60"></div>
       </div>
 
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         <div className="mb-8 flex justify-center">
-          <div className="w-20 h-20 bg-gradient-to-br from-amber-400 to-amber-600 rounded-2xl flex items-center justify-center shadow-2xl">
-            <span className="text-white font-bold text-4xl">A</span>
-          </div>
+          <img src="/src/img/logo.jpeg" alt="Aurea logo" className="w-28 h-28 rounded-2xl object-cover shadow-2xl" />
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-          Bienvenido a <span className="text-amber-400">AUREA</span>
+          Bienvenido a <span className="uppercase"><span className="text-white">ÁUREA</span><span className="text-amber-400 ml-2">FAB</span></span>
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl mx-auto">
@@ -39,7 +37,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button
             onClick={() => scrollToSection('contacto')}
-            className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition transform hover:scale-105 shadow-xl flex items-center justify-center gap-2"
+            className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition transform hover:scale-105 shadow-xl flex items-center justify-center gap-3"
           >
             Cotizar ahora
             <ArrowRight size={20} />

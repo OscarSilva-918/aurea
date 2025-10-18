@@ -17,11 +17,10 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-amber-400 to-amber-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">A</span>
-            </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-amber-500 to-amber-700 bg-clip-text text-transparent">
-              AUREA
+            <img src="/src/img/logo.jpeg" alt="Aurea logo" className="w-10 h-10 rounded-lg object-cover shadow-md" />
+            <span className="text-2xl font-bold uppercase">
+              <span className="text-white">ÁUREA</span>
+              <span className="text-amber-400 ml-1">FAB</span>
             </span>
           </div>
 

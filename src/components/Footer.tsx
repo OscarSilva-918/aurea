@@ -10,7 +10,7 @@ export default function Footer() {
               <div className="w-10 h-10 bg-gradient-to-br from-amber-400 to-amber-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-xl">A</span>
               </div>
-              <span className="text-2xl font-bold text-amber-400">AUREA</span>
+              <span className="text-2xl font-bold uppercase"><span className="text-white">ÁUREA</span><span className="text-amber-400 ml-2">FAB</span></span>
             </div>
             <p className="text-gray-400 leading-relaxed">
               Diseñamos y fabricamos muebles de melamina que transforman tus espacios con calidad y estilo.
@@ -64,7 +64,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © 2025 AUREA Muebles. Todos los derechos reservados.
+              © 2025 ÁUREA FAB. Todos los derechos reservados.
             </p>
             <div className="flex gap-4">
               <a
